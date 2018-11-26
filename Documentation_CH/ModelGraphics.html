@@ -37,28 +37,16 @@
 
             <article>
                 <div class="container-overview">
-
-
-
-
                     <div class="nameContainer">
                         <h4 class="name" id="ModelGraphics">
                             <a href="#ModelGraphics" class="doc-link"></a>
                             new Cesium.ModelGraphics<span class="signature">(<span class="optional">options</span>)</span>
-
-
                             <div class="source-link rightLinks">
                                 <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L63">DataSources/ModelGraphics.js
                                     63</a>
                             </div>
-
-
                         </h4>
-
                     </div>
-
-
-
 
                     <div class="description">
                         A 3D model based on <a href="https://github.com/KhronosGroup/glTF">glTF</a>, the runtime asset format for WebGL, OpenGL ES, and OpenGL.
@@ -73,83 +61,35 @@
                         </p>
                     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
                     <table class="params">
                         <thead>
                             <tr>
-
                                 <th>Name<br/>名称</th>
-
-
                                 <th>Type<br/>类型</th>
-
-
-
                                 <th class="last">Description<br/>描述</th>
                             </tr>
                         </thead>
 
                         <tbody>
-
-
                             <tr>
-
                                 <td class="name"><code>options</code></td>
-
-
                                 <td class="type">
-
-
                                     <span class="param-type">Object</span>
-
-
-
                                 </td>
-
-
-
                                 <td class="description last">
-
-
                                     <span class="optional">optional</span>
-
-
-
-
-
                                     Object with the following properties:<br/>
                                     对象以下属性：
-
                                     <table class="params">
                                         <thead>
                                             <tr>
-
                                                 <th>Name<br/>名称</th>
-
-
                                                 <th>Type<br/>类型</th>
-
-
                                                 <th>Default<br/>默认值</th>
-
-
                                                 <th class="last">Description<br/>描述</th>
                                             </tr>
                                         </thead>
-
                                         <tbody>
-
 
                                             <tr>
                                                 <td class="name"><code>uri</code></td>
@@ -190,11 +130,10 @@
                                                 </td>
                                                 <td class="description last">
                                                     <span class="optional">optional</span>
-                                                    A numeric Property specifying a uniform linear scale.</td><br/>
+                                                    A numeric Property specifying a uniform linear scale.<br/>
                                                     指定均衡线性比例大小的数值属性。（用来指定模型的缩放大小）
+                                                </td>
                                             </tr>
-
-
 
                                             <tr>
                                                 <td class="name"><code>minimumPixelSize</code></td>
@@ -286,7 +225,7 @@
                                                     <span class="optional">optional</span>
                                                     An object, where keys are names of nodes, and values are <a href="TranslationRotationScale.html"><code>TranslationRotationScale</code></a>
                                                     Properties describing the transformation to apply to that node.<br/>
-                                                    一个对象，其中键是节点的名称，值是 <a href="TranslationRotationScale.html"><code>TranslationRotationScale</code> 属性，描述要应用于该节点的转换。
+                                                    一个对象，其中键是节点的名称，值是 <a href="TranslationRotationScale.html"><code>TranslationRotationScale</code></a> 属性，描述要应用于该节点的转换。
                                                 </td>
                                             </tr>
 
@@ -461,1500 +400,458 @@
                     <h4 class="name" id="clampAnimations">
                         <a href="#clampAnimations" class="doc-link"></a>
                         clampAnimations<span class="type-signature"> : <a href="Property.html">Property</a></span>
-
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L193">DataSources/ModelGraphics.js
                                 193</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
                 <div class="description">
                     Gets or sets the boolean Property specifying if glTF animations should hold the last pose for time
-                    durations with no keyframes.
+                    durations with no keyframes.<br/>
+                    获取或设置指定在没有关键帧的时间段内，glTF动画是否应该保持最后一个姿势
                 </div>
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <span class="details-header">Default Value:</span>
                     <code class="language-javascript">true</code>
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
-
-
-
 
                 <div class="nameContainer">
                     <h4 class="name" id="clippingPlanes">
                         <a href="#clippingPlanes" class="doc-link"></a>
                         clippingPlanes<span class="type-signature"> : <a href="Property.html">Property</a></span>
-
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L265">DataSources/ModelGraphics.js
                                 265</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
                 <div class="description">
                     A property specifying the <a href="ClippingPlaneCollection.html"><code>ClippingPlaneCollection</code></a>
-                    used to selectively disable rendering the model.
+                    used to selectively disable rendering the model.<br/>
+                    指定 <a href="ClippingPlaneCollection.html"><code>ClippingPlaneCollection</code></a> 用于选择性禁用呈现模型。
                 </div>
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
-
-
-
 
                 <div class="nameContainer">
                     <h4 class="name" id="color">
                         <a href="#color" class="doc-link"></a>
                         color<span class="type-signature"> : <a href="Property.html">Property</a></span>
-
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L240">DataSources/ModelGraphics.js
                                 240</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
                 <div class="description">
                     Gets or sets the Property specifying the <a href="Color.html"><code>Color</code></a> that blends
-                    with the model's rendered color.
+                    with the model's rendered color.<br/>
+                    获取或设置指定 <a href="Color.html"><code>Color</code></a> 与模型呈现颜色混合的颜色。
                 </div>
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <span class="details-header">Default Value:</span>
                     <code class="language-javascript">Color.WHITE</code>
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
-
-
-
 
                 <div class="nameContainer">
                     <h4 class="name" id="colorBlendAmount">
                         <a href="#colorBlendAmount" class="doc-link"></a>
                         colorBlendAmount<span class="type-signature"> : <a href="Property.html">Property</a></span>
-
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L258">DataSources/ModelGraphics.js
                                 258</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
                 <div class="description">
                     A numeric Property specifying the color strength when the <code>colorBlendMode</code> is MIX.
                     A value of 0.0 results in the model's rendered color while a value of 1.0 results in a solid color,
                     with
-                    any value in-between resulting in a mix of the two.
+                    any value in-between resulting in a mix of the two.<br/>
+                    一个数值属性，指定颜色强度值当颜色混合模式为 MIX 时。值0.0表示模型呈现的颜色，值1.0表示纯色，任何介于两者之间的值都表示两者的混合。
                 </div>
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <span class="details-header">Default Value:</span>
                     <code class="language-javascript">0.5</code>
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
-
-
-
 
                 <div class="nameContainer">
                     <h4 class="name" id="colorBlendMode">
                         <a href="#colorBlendMode" class="doc-link"></a>
                         colorBlendMode<span class="type-signature"> : <a href="Property.html">Property</a></span>
-
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L248">DataSources/ModelGraphics.js
                                 248</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
                 <div class="description">
-                    Gets or sets the enum Property specifying how the color blends with the model.
+                    Gets or sets the enum Property specifying how the color blends with the model.<br/>
+                    获取或设置枚举类型指定颜色与模型渲染的方式。（ColorBlendMode.HIGHLIGHT、ColorBlendMode.REPLACE 、ColorBlendMode.MIX）
                 </div>
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <span class="details-header">Default Value:</span>
                     <code class="language-javascript">ColorBlendMode.HIGHLIGHT</code>
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
-
-
-
 
                 <div class="nameContainer">
                     <h4 class="name" id="definitionChanged">
                         <a href="#definitionChanged" class="doc-link"></a>
                         <span class="type-signature attribute-readonly">readonly</span>definitionChanged<span class="type-signature">
                             : <a href="Event.html">Event</a></span>
-
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L111">DataSources/ModelGraphics.js
                                 111</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
                 <div class="description">
-                    Gets the event that is raised whenever a property or sub-property is changed or modified.
+                    Gets the event that is raised whenever a property or sub-property is changed or modified.<br/>
+                    获取每当属性或子属性更改或修改时引发的事件。
                 </div>
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
-
-
-
 
                 <div class="nameContainer">
                     <h4 class="name" id="distanceDisplayCondition">
                         <a href="#distanceDisplayCondition" class="doc-link"></a>
                         distanceDisplayCondition<span class="type-signature"> : <a href="Property.html">Property</a></span>
-
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L216">DataSources/ModelGraphics.js
                                 216</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
                 <div class="description">
                     Gets or sets the <a href="DistanceDisplayCondition.html"><code>DistanceDisplayCondition</code></a>
-                    Property specifying at what distance from the camera that this model will be displayed.
+                    Property specifying at what distance from the camera that this model will be displayed.<br/>
+                    获取或设置 <a href="DistanceDisplayCondition.html"><code>DistanceDisplayCondition</code></a> 属性，指定模型显示的相机高度范围。
                 </div>
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
-
-
-
 
                 <div class="nameContainer">
                     <h4 class="name" id="heightReference">
                         <a href="#heightReference" class="doc-link"></a>
                         heightReference<span class="type-signature"> : <a href="Property.html">Property</a></span>
-
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L209">DataSources/ModelGraphics.js
                                 209</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
                 <div class="description">
-                    Gets or sets the Property specifying the <a href="HeightReference.html"><code>HeightReference</code></a>.
+                    Gets or sets the Property specifying the <a href="HeightReference.html"><code>HeightReference</code></a>.<br/>
+                    获取或设置指定参考高度的属性 <a href="HeightReference.html"><code>HeightReference</code></a>。
                 </div>
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <span class="details-header">Default Value:</span>
                     <code class="language-javascript">HeightReference.NONE</code>
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
-
-
-
 
                 <div class="nameContainer">
                     <h4 class="name" id="incrementallyLoadTextures">
                         <a href="#incrementallyLoadTextures" class="doc-link"></a>
                         incrementallyLoadTextures<span class="type-signature"> : <a href="Property.html">Property</a></span>
-
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L161">DataSources/ModelGraphics.js
                                 161</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
                 <div class="description">
                     Get or sets the boolean Property specifying whether textures
-                    may continue to stream in after the model is loaded.
+                    may continue to stream in after the model is loaded.<br/>
+                    获取或设置布尔属性，指定当模型加载完成后是否继续涌进（载入）
                 </div>
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
-
-
-
 
                 <div class="nameContainer">
                     <h4 class="name" id="maximumScale">
                         <a href="#maximumScale" class="doc-link"></a>
                         maximumScale<span class="type-signature"> : <a href="Property.html">Property</a></span>
-
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L153">DataSources/ModelGraphics.js
                                 153</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
                 <div class="description">
                     Gets or sets the numeric Property specifying the maximum scale
                     size of a model. This property is used as an upper limit for
-                    <a href="ModelGraphics.html#minimumPixelSize"><code>ModelGraphics#minimumPixelSize</code></a>.
+                    <a href="ModelGraphics.html#minimumPixelSize"><code>ModelGraphics#minimumPixelSize</code></a>.<br/>
+                    获取或设置数值属性，指定模型最大比例大小。这个属性被用于 <a href="ModelGraphics.html#minimumPixelSize"><code>ModelGraphics#minimumPixelSize</code></a> 的上限。
                 </div>
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
-
-
-
 
                 <div class="nameContainer">
                     <h4 class="name" id="minimumPixelSize">
                         <a href="#minimumPixelSize" class="doc-link"></a>
                         minimumPixelSize<span class="type-signature"> : <a href="Property.html">Property</a></span>
-
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L144">DataSources/ModelGraphics.js
                                 144</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
                 <div class="description">
                     Gets or sets the numeric Property specifying the approximate minimum
                     pixel size of the model regardless of zoom. This can be used to ensure that
                     a model is visible even when the viewer zooms out. When <code>0.0</code>,
-                    no minimum size is enforced.
+                    no minimum size is enforced.<br/>
+                    获取或设置数值属性，指定模型的近似最小像素大小，不受地图视图缩放的影响。这个属性可以用于取保模型可见即使视图缩小时。当值是0.0时，没有强制最小大小。
                 </div>
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <span class="details-header">Default Value:</span>
                     <code class="language-javascript">0.0</code>
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
-
-
-
 
                 <div class="nameContainer">
                     <h4 class="name" id="nodeTransformations">
                         <a href="#nodeTransformations" class="doc-link"></a>
                         nodeTransformations<span class="type-signature"> : <a href="PropertyBag.html">PropertyBag</a></span>
-
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L201">DataSources/ModelGraphics.js
                                 201</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
                 <div class="description">
                     Gets or sets the set of node transformations to apply to this model. This is represented as an <a
                         href="PropertyBag.html"><code>PropertyBag</code></a>, where keys are
                     names of nodes, and values are <a href="TranslationRotationScale.html"><code>TranslationRotationScale</code></a>
-                    Properties describing the transformation to apply to that node.
+                    Properties describing the transformation to apply to that node.<br/>
+                    获取或设置应用于模型的节点转换集合。它表示为 <a href="PropertyBag.html"><code>PropertyBag</code></a> ，其中键是节点的名称，值是 TranslationRotationScale 属性，描述要应用于该节点的转换。
                 </div>
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
-
-
-
 
                 <div class="nameContainer">
                     <h4 class="name" id="runAnimations">
                         <a href="#runAnimations" class="doc-link"></a>
                         runAnimations<span class="type-signature"> : <a href="Property.html">Property</a></span>
-
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L185">DataSources/ModelGraphics.js
                                 185</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
                 <div class="description">
-                    Gets or sets the boolean Property specifying if glTF animations should be run.
+                    Gets or sets the boolean Property specifying if glTF animations should be run.<br/>
+                    获取或设置布尔属性，指定是否执行 glTF 动画。 
                 </div>
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <span class="details-header">Default Value:</span>
                     <code class="language-javascript">true</code>
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
-
-
-
 
                 <div class="nameContainer">
                     <h4 class="name" id="scale">
                         <a href="#scale" class="doc-link"></a>
                         scale<span class="type-signature"> : <a href="Property.html">Property</a></span>
-
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L133">DataSources/ModelGraphics.js
                                 133</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
                 <div class="description">
                     Gets or sets the numeric Property specifying a uniform linear scale
                     for this model. Values greater than 1.0 increase the size of the model while
-                    values less than 1.0 decrease it.
+                    values less than 1.0 decrease it.<br/>
+                    获取或设置数值属性，指定模型的统一线性比例大小。值大于1.0时模型放大，而值小于1.0时模型缩小。
                 </div>
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <span class="details-header">Default Value:</span>
                     <code class="language-javascript">1.0</code>
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
-
-
-
 
                 <div class="nameContainer">
                     <h4 class="name" id="shadows">
                         <a href="#shadows" class="doc-link"></a>
                         shadows<span class="type-signature"> : <a href="Property.html">Property</a></span>
-
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L170">DataSources/ModelGraphics.js
                                 170</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
                 <div class="description">
                     Get or sets the enum Property specifying whether the model
-                    casts or receives shadows from each light source.
+                    casts or receives shadows from each light source.<br/>
+                    获取或设置枚举类型，指定模型是否从每个光源投射或接收阴影。
                 </div>
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <span class="details-header">Default Value:</span>
                     <code class="language-javascript">ShadowMode.ENABLED</code>
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
-
-
-
 
                 <div class="nameContainer">
                     <h4 class="name" id="show">
                         <a href="#show" class="doc-link"></a>
                         show<span class="type-signature"> : <a href="Property.html">Property</a></span>
-
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L123">DataSources/ModelGraphics.js
                                 123</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
                 <div class="description">
-                    Gets or sets the boolean Property specifying the visibility of the model.
+                    Gets or sets the boolean Property specifying the visibility of the model.<br/>
+                    获取或设置布尔属性，指定模型是否可见。
                 </div>
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <span class="details-header">Default Value:</span>
                     <code class="language-javascript">true</code>
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
-
-
-
 
                 <div class="nameContainer">
                     <h4 class="name" id="silhouetteColor">
                         <a href="#silhouetteColor" class="doc-link"></a>
                         silhouetteColor<span class="type-signature"> : <a href="Property.html">Property</a></span>
 
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L224">DataSources/ModelGraphics.js
                                 224</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
                 <div class="description">
                     Gets or sets the Property specifying the <a href="Color.html"><code>Color</code></a> of the
-                    silhouette.
+                    silhouette.<br/>
+                    获取或设置属性，指定模型轮廓的颜色 <a href="Color.html"><code>Color</code></a> 。
                 </div>
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <span class="details-header">Default Value:</span>
                     <code class="language-javascript">Color.RED</code>
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
-
-
-
 
                 <div class="nameContainer">
                     <h4 class="name" id="silhouetteSize">
                         <a href="#silhouetteSize" class="doc-link"></a>
                         silhouetteSize<span class="type-signature"> : <a href="Property.html">Property</a></span>
-
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L232">DataSources/ModelGraphics.js
                                 232</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
                 <div class="description">
-                    Gets or sets the numeric Property specifying the size of the silhouette in pixels.
+                    Gets or sets the numeric Property specifying the size of the silhouette in pixels.<br/>
+                    获取或设置数值属性，指定模型轮廓的像素大小。
                 </div>
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <span class="details-header">Default Value:</span>
                     <code class="language-javascript">0.0</code>
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
-
-
-
 
                 <div class="nameContainer">
                     <h4 class="name" id="uri">
                         <a href="#uri" class="doc-link"></a>
                         uri<span class="type-signature"> : <a href="Property.html">Property</a></span>
-
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L177">DataSources/ModelGraphics.js
                                 177</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
                 <div class="description">
-                    Gets or sets the string Property specifying the URI of the glTF asset.
+                    Gets or sets the string Property specifying the URI of the glTF asset.<br/>
+                    获取或设置 string 属性，指定 glTF 资源的 uri。
                 </div>
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
 
 
-
-
-
-
                 <h3 class="subsection-title">Methods</h3>
-
-
-
                 <div class="nameContainer">
                     <h4 class="name" id="clone">
                         <a href="#clone" class="doc-link"></a>
                         clone<span class="signature">(<span class="optional">result</span>)</span> &rarr; <span class="type-signature returnType"><a
                                 href="ModelGraphics.html">ModelGraphics</a></span>
-
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L274">DataSources/ModelGraphics.js
                                 274</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
-
                 <div class="description">
-                    Duplicates this instance.
+                    Duplicates this instance.<br/>
+                    复制这个实例。
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
                 <table class="params">
                     <thead>
                         <tr>
-
                             <th>Name</th>
-
-
                             <th>Type</th>
-
-
-
                             <th class="last">Description</th>
                         </tr>
                     </thead>
 
                     <tbody>
-
-
                         <tr>
-
                             <td class="name"><code>result</code></td>
-
-
                             <td class="type">
-
-
                                 <span class="param-type"><a href="ModelGraphics.html">ModelGraphics</a></span>
-
-
-
                             </td>
-
-
-
                             <td class="description last">
-
-
                                 <span class="optional">optional</span>
-
-
-
-
-
-                                The object onto which to store the result.</td>
+                                The object onto which to store the result.<br/>
+                                存储结果的对象。
+                            </td>
                         </tr>
-
-
                     </tbody>
                 </table>
-
-
-
-
-
-
-
-
-
-
-
                 <h5>Returns:</h5>
-
-
                 <div class="param-desc">
-                    The modified result parameter or a new instance if one was not provided.
+                    The modified result parameter or a new instance if one was not provided.<br/>
+                    修改后的结果参数或一个新的实例如果未提供参数。
                 </div>
-
-
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
-
-
-
 
                 <div class="nameContainer">
                     <h4 class="name" id="merge">
                         <a href="#merge" class="doc-link"></a>
                         merge<span class="signature">(source)</span>
-
-
                         <div class="source-link rightLinks">
                             <a href="https://github.com/AnalyticalGraphicsInc/cesium/blob/1.49/Source/DataSources/ModelGraphics.js#L306">DataSources/ModelGraphics.js
                                 306</a>
                         </div>
-
-
                     </h4>
-
                 </div>
-
-
-
-
                 <div class="description">
                     Assigns each unassigned property on this object to the value
-                    of the same property on the provided source object.
+                    of the same property on the provided source object.<br/>
+                    将提供源对象的值赋值给这个对象每个未分相同属性。
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
                 <table class="params">
                     <thead>
                         <tr>
-
                             <th>Name</th>
-
-
                             <th>Type</th>
-
-
-
                             <th class="last">Description</th>
                         </tr>
                     </thead>
-
                     <tbody>
-
-
                         <tr>
-
                             <td class="name"><code>source</code></td>
-
-
                             <td class="type">
-
-
                                 <span class="param-type"><a href="ModelGraphics.html">ModelGraphics</a></span>
-
-
-
                             </td>
-
-
-
                             <td class="description last">
-
-                                The object to be merged into this object.</td>
+                                The object to be merged into this object.<br/>
+                                要合并到该对象中的对象。
+                            </td>
                         </tr>
-
-
                     </tbody>
                 </table>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 </dl>
-
-
-
-
-
-
-
-
             </article>
 
         </section>
